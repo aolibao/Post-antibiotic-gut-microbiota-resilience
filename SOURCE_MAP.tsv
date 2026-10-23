@@ -1,0 +1,23 @@
+curated_section	canonical_source	purpose
+00_shared	reproduction/	Common loaders, renderers, dependencies, and QA
+01_Fig1	reproduction/load_raw_bracken.py; reproduction/render_high_fidelity.py; reproduction/render_integrated_fig124*.py	Original Fig. 1 analysis and rendering
+02_Fig2	reproduction/load_raw_bracken.py; reproduction/render_high_fidelity.py; reproduction/lefse_reconstruction.py; reproduction/render_selected_panels.py	Original Fig. 2 diversity and differential-taxon analyses
+03_Fig3	reproduction/fig3_mdsine2/	No-qPCR MDSINE2 preparation, inference, summarization, longitudinal analysis, and rendering
+04_Fig4	reproduction/fastspar_fig4.py; reproduction/render_fig4_sfig4.py	Original network and Fig. 4 rendering
+05_sFig1	reproduction/render_high_fidelity.py	Supplementary Fig. 1
+06_sFig2	reproduction/render_high_fidelity.py	Supplementary Fig. 2
+07_sFig3	reproduction/render_high_fidelity.py; reproduction/audit_sfig3_variants.py	Supplementary Fig. 3
+08_sFig4	ABX课题/ABX课题/Script/Fig5/; ABX课题/ABX课题/analyze_pyridnucsyn.py	Supplementary Fig. 4 baseline NAD pathway, correlation, and enzyme reference analyses
+09_Fig5	ABX课题/ABX课题/Script/Fig5/; ABX课题/ABX课题/{analyze,plot}_*.py	Fig. 5 human baseline pathway, KO/enzyme, correlation, and Sankey reference analyses
+10_Fig6	reviewer_response/R1.9_mouse_reanalysis/scripts/run_mouse_alpha_reanalysis.R; ABX课题/Scripts/	Fig. 6 mouse 16S ecological analysis; legacy QIIME 2 references retained separately
+11_sFig5	reviewer_response/R1.9_mouse_reanalysis/scripts/run_mouse_alpha_reanalysis.R; ABX课题/Scripts/	Supplementary Fig. 5 mouse 16S evenness and community-structure reference analyses
+revisions/R1.1	reviewer_response/R1.1/	Alternative recovery definitions and Fig. 2–4 robustness analysis
+revisions/R1.2	reviewer_response/R1.2/	Full-cohort continuous and cut-off sensitivity analyses
+revisions/R1.3_DMM	reviewer_response/R1.3_DMM/	DMM community-type analysis and two-panel figure
+revisions/R1.6/Fig1C	reviewer_response/R1.6_Fig1C_permutation/	Paired restricted-permutation Fig. 1C analysis
+revisions/R1.6/sFig2A	reviewer_response/R1.6_sFig2A_subject_permutation/	Subject-label permutation/PERMANOVA analysis for Supplementary Fig. 2A
+revisions/R1.6/sFig2C	reviewer_response/R1.6_sFig2C_PERMDISP/	PERMANOVA plus PERMDISP for the two PCoA panels
+revisions/Minor4_Fig3EF	reproduction/fig3_mdsine2/render_fig3.py	Fig. 3E/3F radial heatmap legend revision
+revisions/R1.7	reviewer_response/R1.7/	Genus–Shannon association reanalysis
+revisions/R1.9_mouse	reviewer_response/R1.9* /	Mouse 16S data availability audit and alpha-diversity analysis
+manuscript_build	reviewer_response/manuscript_revision/scripts/	Revised manuscript and line-location assembly

@@ -1,0 +1,8 @@
+numpy>=1.26,<2
+pandas>=2.2,<3
+scipy>=1.15,<2
+scikit-learn>=1.5,<2
+scikit-image>=0.24,<1
+matplotlib>=3.9,<4
+networkx>=3.3,<4
+pillow>=10,<13

@@ -1,0 +1,29 @@
+figure	panel	analysis_or_plot	best_available_script	status	note
+Fig1	A	study workflow schematic	NA	artwork	No statistical analysis; assemble from study design and sampling metadata.
+Fig1	B-C	longitudinal alpha diversity and paired Jaccard	01_Fig1/render_high_fidelity.py	shared	Raw Bracken loading is in 01_Fig1/load_raw_bracken.py.
+Fig1	D	species composition streamgraph	01_Fig1/render_integrated_fig124_raw.py	direct	Uses the reconstructed raw-data workflow.
+Fig2	A-E	clustering, grouping, diversity and baseline-recovery correlation	02_Fig2/render_high_fidelity.py	shared	Integrated rendering alternatives are also retained.
+Fig2	F	LEfSe heatmap	02_Fig2/lefse_reconstruction.py	direct	Selected-panel renderer controls final appearance.
+Fig3	A-F	MDSINE2 modules, parameters and radial displays	03_Fig3/	direct	Directory contains preparation through validation; see render_fig3.py.
+Fig4	A-D	composition, diversity, networks and genus-Shannon associations	04_Fig4/	direct	FastSpar network analysis and integrated renderer.
+Fig5	A	pathway log-fold-change comparison	09_Fig5/reference/compare_pathway_groupings.R	reference	Alternative supplied analyses include limma, Wilcoxon and LEfSe scripts.
+Fig5	B	pathway-Shannon correlations	09_Fig5/reference/plot_shannon_selected_pathways_corr_square.R	reference	Correlation calculation scripts are retained in the same directory.
+Fig5	C	PWY-7761 topology	NA	artwork	Topology diagram is pathway annotation artwork; numerical enzyme panels use the scripts below.
+Fig5	D	selected NAD enzyme abundance	09_Fig5/reference/plot_pwy7761_subplots.py	reference	Supporting PWY-7761/PYRIDNUCSYN analysis scripts are included.
+Fig5	E	NadD abundance and taxon-gene-enzyme Sankey	09_Fig5/reference/plot_sankey_nad.py	reference	plot_sankey_p1_p4.py is an alternate grouping implementation.
+Fig6	A	mouse experimental design	NA	artwork	No statistical analysis; assemble from the animal protocol.
+Fig6	B-C	bacterial load and longitudinal Shannon	10_Fig6/legacy_reference/plot_diversity_annotated.py	reference	Use preferred/run_mouse_alpha_reanalysis.R for animal-level inferential summaries.
+Fig6	D	mouse alpha-diversity contrasts	10_Fig6/preferred/run_mouse_alpha_reanalysis.R	direct_revision	Uses available mouse 16S diversity table and animal-level contrasts.
+Fig6	E	mouse community ordination/PERMANOVA	10_Fig6/legacy_reference/plot_diversity_annotated.py	reference	Legacy path/environment settings require review before execution.
+Fig6	F	16S taxonomic differences	10_Fig6/legacy_reference/run_analysis.sh	reference	QIIME 2 starting workflow; a panel-specific differential-taxon renderer was not found.
+Fig6	G-I	mouse pathway/KO panels	NA	unavailable	Mouse shotgun metagenomics was not performed; these panels are not supported by the supplied mouse data.
+sFig1	A-D	control diversity, distance, core taxa and enrichment	05_sFig1/render_high_fidelity.py	shared	Uses 05_sFig1/load_raw_bracken.py.
+sFig2	A-E	inter-group distance, recovery classes, PCoA and F. prausnitzii	06_sFig2/render_high_fidelity.py	shared	Reviewer-corrected permutation/PERMDISP scripts are under revisions/R1.6.
+sFig3	A-F	phase overlap and persistence	07_sFig3/render_high_fidelity.py	shared	Variant audit is in audit_sfig3_variants.py.
+sFig4	A	control pathway-Shannon correlation	08_sFig4/reference_NAD/correlate_shannon_pathway.R	reference	Corrected from the earlier network-script mapping.
+sFig4	B	PWY-7761 and PYRIDNUCSYN-PWY abundance	08_sFig4/reference_NAD/plot_specific_pathway_boxplot.R	reference	Combined plot alternative is also included.
+sFig4	C	PYRIDNUCSYN topology and enzyme abundance	08_sFig4/reference_NAD/analyze_pyridnucsyn.py	reference	Topology component is artwork; enzyme statistics are scripted.
+sFig5	A	mouse evenness	11_sFig5/preferred/run_mouse_alpha_reanalysis.R	direct_revision	Legacy plotting implementation is also retained.
+sFig5	B	longitudinal community structure	11_sFig5/legacy_reference/plot_diversity_annotated.py	reference	Requires review of historical QIIME artifact paths.
+sFig5	C-D	mouse PWY-7761 genes	NA	unavailable	Not supported because only mouse 16S sequencing was performed.
+GraphicalAbstract	NA	conceptual summary	NA	artwork	No analysis script is required.
